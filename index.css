@@ -1,0 +1,34 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.whole-container, .input-container, .login-container{
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column; 
+}
+ 
+.input-container{
+    justify-content: space-around;
+}
+.username-container, .password-container{
+    margin: 2px;
+}
+.sign-container, form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.submit-btn{
+    border-radius: 20px;
+}
+.image-container{
+    margin-bottom: 10px;
+}

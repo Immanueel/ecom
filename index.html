@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Login</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <div class="whole-container">
+      <div class="login-container">
+        <div class="image-container">
+          <img src="images/logo.png" alt="logo-img" width="40px" height="60px">
+        </div>
+        <div class="h"><h3>Login to your account</h3></div>
+        <form action="includes/login.php" method="POST">
+          
+          
+          <div class="input-container">
+            <div class="username-container">
+              <div class="input-group input-group-lg border border-secondary rounded-lg">
+                <span class="input-group-text border-0" id="basic-addon1"><i class="fas fa-user-circle fa-lg"></i></span>
+                <input type="text" id="log-username" class="form-control border-0" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1" name="username" />
+              </div>
+            </div>
+            <div class="password-container">
+              <div class="input-group input-group-lg border border-secondary rounded-lg">
+                <span class="input-group-text border-0" id="basic-addon1"><i class="fas fa-unlock-alt fa-lg"></i></span>
+                <input type="password" id="log-password" class="form-control border-0" placeholder="Password" aria-label="Password" aria-describedby="basic-addon1" name="password" />
+              </div>
+            </div>
+            <p class="forgot" style="margin-left: auto; margin-bottom: 0%;"><a href="forgot-password.html">Forgot password?</a></p>
+            <button type="submit" class="btn btn-success btn-block btn-lg submit-btn">
+                Log in
+              </button> 
+          </div>
+        </form>
+        <div style="margin-left: 170px; margin-bottom: -12px;"> <p>or</p></div>
+        <div>
+          <button type="submit" class="btn btn-outline-success btn-block btn-lg submit-btn">
+              Sign Up
+            </button>
+        </div>
+      </div>
+      
+    </div>
+      
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

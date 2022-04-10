@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        .header{
+            display: flex;
+            background-color: #bde98c;
+            height: 50px;
+        }
+        .nav-right{
+            display: flex;
+            justify-content: space-around;
+            margin-left: auto;
+        }
+        .home, .dropdown-open{
+            margin-top: 5px;
+            margin-right: 20px;
+        }
+    </style>
+  </head>
+  <body>
+      <div class="header">
+          <div>
+          <nav class="nav navbar-brand">
+
+          </nav></div>
+          <div class="nav-right">
+            <div class="home" style="margin-top: 10px;">
+                <a href="">Home</a>
+            </div>
+            <div class="dropdown-open">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                            Options
+                        </button>
+                <div class="dropdown-menu" aria-labelledby="triggerId">
+                    <button class="dropdown-item" href="#">Account</button>
+                    <button class="dropdown-item" href="#">Logout</button>
+                </div>
+            </div>
+          </div>
+      </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
